@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>ADD</h1>
+  <form action='/department/new' method="POST">
+    Id<br>
+    <input type='text' name='id'><br>
+    Name<br>
+    <input type='text' name='name'><br>
+    Description<br>
+    <input type='text' name='description'>
+    <br>
+    <input type='submit'>
+  </form>
+
+  <br><br>
+
+  <h1>Modify</h1>
+  <form action='/department/modify' method="POST">
+    Id<br>
+    <input type='text' name='id'><br>
+    New name<br>
+    <input type='text' name='name'><br>
+    New description<br>
+    <input type='text' name='description'>
+    <br>
+    <input type='submit'>
+  </form>
+
+</body>
+</html>
